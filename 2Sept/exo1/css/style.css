@@ -1,0 +1,21 @@
+/* Mise en Formes Typographique */
+html{
+    /* Passer d'une base 16 à une base 10 */
+    /* font-size: 10px; */
+    font-size: 60.5%;
+}
+
+body{
+    /* font-size: 25px; ou  font-size: 1rem;*/
+    background-color: aqua;
+    font-family: sans-serif;
+    line-height: 30px; /* line-height: 3rem;*/
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+   /* text-decoration: underline;*/
+    text-decoration: line-through;
+    text-shadow: 10px 10px 20px transparent;
+    color: rgb(240, 11, 11);
+
+}

@@ -1,0 +1,75 @@
+
+html{
+    font-size: 60.5%;
+}
+
+body{
+    font-size: 2rem;
+}
+
+ul{
+    border: .5rem solid red;
+    width: 30rem;
+    height: 30rem;
+    margin: 100rem auto;
+    position: relative;
+    
+    transform: rotateZ(360deg);
+    
+}
+
+li{
+    /* display: inline; */
+    /* display: inline-block; */
+    text-align: centre;
+    width: 5rem;
+    height: 5rem;
+    /* margin: 5rem; */
+    position: absolute;
+}
+p{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    /*  Modifier l'ordre des couches */
+    z-index: 1000;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.commonColors{
+    color: white;
+}
+
+#redColor{
+    background-color: red;
+    /* Sortir la balise de flux */
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+}
+
+#blueColor{
+    background-color: blue;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+}
+
+#purpleColor{
+    background-color: purple;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+}
+
+#greenColor{
+    background-color: green;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+}
